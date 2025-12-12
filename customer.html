@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="laptop">
+        <div class="logo">
+            <p>Electro<span style="color: black;">Mart</span></p>
+             <img src="images/Screenshot_2025-12-10_191955-removebg-preview.png">
+        </div>
+
+        <div class="searchbox">
+            <input type="search" placeholder="Search">
+            <img src="images/icons8-search-20.png" class="searchicon">
+        </div>
+
+        <div class="icons">
+            <div class="social">
+            <div>
+          <a href="cart.html"> <img src="images/icons8-cart-24.png"></a></div>
+            <div>
+            <img src="images/icons8-notification-24.png"></div>
+            </div>
+            <div class="profile">
+            <img src="images/image user profile 1.png"></div>
+           <div class="support">
+            <p style="margin-top: 5px;font-weight: 650;font-size: large;">24/7</p>
+          <a href="customer.html"><img src="images/icons8-online-support-24.png"></a>
+        </div>
+        </div>
+    </header>
+    <div class="order">
+        <div class="lists">
+            <ul>
+                <li><a href="home.html"> Home</a></li>
+                <li><a href="blogs.html"> Blogs</a></li>
+                <li><a href="shop.html"> Categories</a></li>
+                <li><a href="customer.html">Support</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="customers">
+        <p>24/7 Customer Support</p>
+        <img src="images/icons8-online-support-35.png">
+    </div>
+
+<div class="with" id="with">
+<div class="boxes">
+    <img src="images/Screenshot_2025-12-11_155939-removebg-preview.png">
+    <p>Chat With Us</p>
+</div>
+</div>
+
+
+<div class="bill" id="bill">
+    <p style="font-size: x-large;font-weight: 550;">How may I help you?</p>
+    <button>I need to return the item</button><br><br>
+    <button>Get my bill or invoice</button><br><br>
+    <button>Check Warranty</button><br><br>
+    <button>Something else</button><br><br>
+    <button>Call Agent</button>
+</div>
+
+<div class="message" id="message">
+    <div>
+    <button>Write a Message.....</button></div>
+    <div class="msgbtn">
+        <img src="images/icons8-send-24 copy.png"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="return">
+<div>
+    <img src="images/Screenshot_2025-12-11_160626-removebg-preview.png">
+    <p>Return & Refunds</p>
+    <p>Request a return and<br>view the refund policy</p>
+</div>
+<div>
+    <img src="images/Screenshot_2025-12-11_160632-removebg-preview.png">
+    <p>Track Order</p>
+    <p>Track your order status<br>in real time</p>
+</div>
+<div>
+    <img src="images/Screenshot_2025-12-11_160645-removebg-preview.png">
+    <p>Contact Us</p>
+    <p>Get in touch our<br>customer support team</p>
+</div>
+</div>
+
+
+<div class="subscribe">
+    <p>Subscribe</p>
+    <p>Get the latest deals & update straight to your inbox</p>
+    <div>
+        <button>Enter your Email</button>
+        <button class="inbox">Subscribe</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <footer>
+
+    <div class="smart">
+    <div>
+    <div class="your">
+        <p><span style="color: white;"> Electro</span>Mart</p>
+        <img src="images/Screenshot_2025-12-10_191955-removebg-preview.png">
+    </div>
+    <p style="font-weight: 550;">Powering Your Life<br>One Gadget at a Time</p>
+    </div>
+
+    <div class="service">
+    <ul>
+        <li style="font-weight: 550;">ABOUT</li>
+        <li>About Us</li>
+        <li>Our Services</li>
+        <li>Contact</li>
+        <li>Terms & Condition</li>
+    </ul>
+
+    <ul>
+        <li style="font-weight: 550;">CATEGORY</li>
+        <li>Smartphone</li>
+        <li>Television</li>
+        <li>Laptop</li>
+        <li>Mobile</li>
+    </ul>
+
+    <ul>
+        <li style="font-weight: 550;">CONTACT US</li>
+        <li><img src="images/icons8-location-20.png"> Any town,USA 12345</li>
+        <li><img src="images/icons8-envelope-24.png"> info@example.com</li>
+        <li><img src="images/icons8-phone-20.png"> (123)456-7890</li>
+    </ul>
+    </div>
+
+    </div>
+
+    <div class="book">
+        <img src="images/icons8-facebook-20.png">
+        <img src="images/icons8-twitter-bird-20.png">
+        <img src="images/icons8-instagram-20.png">
+    </div>
+    <div class="all">
+        <p>&copy 2025 Electro Mart.All Rights Reserved</p>
+    </div>
+</footer>
+<script>
+    const one = document.getElementById("with")
+    const two = document.getElementById("bill")
+    const melt = document.getElementById("message")
+    one.addEventListener("click",function(){
+       two.style.display = "block"
+       melt.style.display = "none"
+         one.style.display = "none"
+       } )
+
+    two.addEventListener("click",function(){
+        melt.style.display = "block" 
+        two.style.display = "none"
+        one.style.display = "none"
+    })
+
+    melt.addEventListener("click",function(){
+        one.style.display = "block"
+         melt.style.display = "none" 
+        two.style.display = "none"
+    })
+</script>
+</body>
+</html>

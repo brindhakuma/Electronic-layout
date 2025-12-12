@@ -1,0 +1,695 @@
+body{
+    min-width: 1300px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 50px;
+    height: 70px;
+}
+.logo p{
+    font-size: 25px;
+    color: white;
+    font-weight: 550;
+}
+.profile img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.profile{
+    margin-top: 20px;
+}
+.laptop{
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+header{
+    background-color: rgb(10, 214, 255);
+    height: 15vh;
+}
+.searchbox{
+    margin-top: 15px;
+}
+.support{
+    display: flex;
+    gap: 20px;
+    padding-left: 70px;
+}
+.searchicon{
+    position: relative;
+    left: -40px;
+}
+.support img{
+    width: 30px;
+    height: 30px;
+}
+.searchbox input{
+    width: 350px;
+    padding: 18px;
+    border-radius: 8px;
+    border: none;
+}
+.lists ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: larger;
+    font-weight: 550;
+}
+.lists ul li a{
+    text-decoration: none;
+    color: black;
+}
+.lists{
+    margin-top: -20px;
+    background-color: white;
+    border: 2px solid white;
+     width: 500px;
+}
+.arrival{
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 11px;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+}
+.super a{
+    text-decoration: none;
+    color: black;
+}
+.run a{
+    text-decoration: none;
+    color: black;
+}
+.order{
+    left: 420px;
+    z-index: 999;
+    position: absolute;
+}
+
+.social{
+    display: flex;
+    margin-top: 45px;
+    gap: 25px;
+}
+.upgrade{
+    background-color: rgb(74, 138, 151);
+    color: white;
+    font-size: larger;
+    margin-top: -1px;
+    padding: 8px;
+}
+.shopbtn{
+    padding-left:150px;
+    
+}
+.shopbtn button{
+    padding: 11px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.mobile{
+    display: flex;
+    justify-content: space-around;
+}
+.mobile img{
+    width: 400px;
+}
+.tech{
+    width: 550px;
+    margin-top: 70px;
+}
+.combo{
+    margin-top: 40px;
+}
+.now{
+    background-color: aqua;
+    color: white;
+    font-size: large;
+    font-weight: 550;
+}
+.explore{
+     background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: 550;
+}
+.mart img{
+    width: 520px;
+}
+.frames{
+    display: flex;
+    gap: 40px;
+    animation: leftright 8s linear infinite alternate;
+
+    width: 100%;
+}
+.iphones img{
+    width: 150px;
+}
+.guide{
+    text-align: center;
+    background-color: rgb(181, 251, 251);
+    width: 350px;
+    height: 350px;
+    border-radius: 11px;
+    margin-bottom: 90px;
+}
+.cartbtn button{
+    padding: 15px;
+    border: none;
+    border-radius: 11px;
+    background-color: aqua;
+    color: white;
+    font-size: larger;
+    font-weight: 550;
+}
+.feel{
+    font-size: larger;
+    font-weight: 550;
+    line-height: 1px;
+}
+.super{
+    display: flex;
+    justify-content: space-around;
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(183, 251, 251);
+}
+.aman{
+    padding-left: 70px;
+}
+.aman img{
+    width: 50px;
+    height: 50px;
+}
+.fast{
+    line-height:0.1px;
+    text-align: left;
+}
+.latest{
+    background-color: rgb(125, 201, 245);
+    padding: 18px;
+    width: 220px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 550;
+}
+.great{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(205, 240, 245);
+    padding: 70px;
+    margin-bottom: 50px;
+}
+.subscribe{
+    text-align: center;
+    font-size: x-large;
+    background-color: rgb(182, 241, 251);
+    padding: 15px;
+    margin-bottom: 50px;
+    
+}
+.subscribe button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 11px;
+    font-size: large;
+}
+.inbox{
+    background-color: rgb(10, 214, 255);
+    color: white;
+    font-weight: 550;
+}
+.smart{
+    display: flex;
+      font-size: larger;
+      justify-content: space-around;
+}
+.service{
+    display: flex;
+    gap: 150px;
+}
+.service ul{
+    list-style: none;
+    font-size: large;
+}
+.book{
+    text-align: center;
+}
+.book img{
+    width: 30px;
+}
+.all{
+    text-align: center;
+    font-weight: 550;
+}
+.your{
+    display: flex;
+    font-size: 30px;
+    font-weight: 550;
+    background-color: rgb(10, 214, 255);
+    border-radius: 11px;
+    padding: 5px;
+}
+.commerce img{
+    width: 200px;
+}
+.commerce{
+    display: flex;
+    justify-content: space-around;
+}
+.commerce p{
+    width: 200px;
+    height: 70px;
+    border-radius: 11px;
+    background-color: rgb(10, 214, 255);
+    font-size: 25px;
+    font-weight: 550;text-align: center;
+}
+.filter{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 550;
+}
+.filter p{
+    cursor: pointer;
+}
+.sort{
+    border: 2px solid rgb(207, 205, 205);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    height: 57vh;
+    margin-bottom: 150px;
+}
+.come img{
+    width: 150px;
+}
+.buynow button{
+    padding: 15px;
+    border: none;
+    border-radius: 11px;
+    font-size: larger;
+    background-color: rgb(10, 214, 255);
+    color: white;
+    font-weight: 550;
+    width: 200px;
+}
+.buynow{
+    line-height: 2px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 550;
+}
+.run{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    background-color: rgb(230, 255, 255);
+    padding: 18px;
+}
+footer{
+    background-color: rgb(188, 250, 250);
+    padding: 25px;
+}
+.pro{
+    margin-top: 70px;
+    font-size: larger;
+
+}
+.smartfit{
+    display: flex;
+    justify-content:center;
+}
+.pro{
+    width: 600px;
+}
+.fit img{
+    width: 580px;
+}
+.applebtn button{
+    padding: 15px;
+    width: 200px;
+    border: none;
+    border-radius: 11px;
+    background-color: rgb(10, 214, 255);
+    color: white;
+    font-size: larger;
+    font-weight: 550;
+    cursor: pointer;
+}
+.barcontainer{
+    width: 500px;
+    border-radius: 25px;
+    background-color: rgb(226, 226, 226);
+    height: 25px;
+    margin-bottom: 25px;
+}
+.bar{
+    width: 70%;
+    background-color: rgb(10, 214, 255);
+    height: 25px;
+    border-radius: 25px;
+}
+.barcontainerone{
+    width: 500px;
+    border-radius: 25px;
+    background-color: rgb(226, 226, 226);
+    height: 25px;
+    margin-bottom: 25px;
+}
+.barone{
+    width: 50%;
+    background-color: rgb(10, 214, 255);
+    height: 25px;
+    border-radius: 25px;
+}
+.barcontainertwo{
+    width: 500px;
+    border-radius: 25px;
+    background-color: rgb(226, 226, 226);
+    height: 25px;
+    margin-bottom: 25px;
+}
+.bartwo{
+    width: 40%;
+    background-color: rgb(10, 214, 255);
+    height: 25px;
+    border-radius: 25px;
+}
+.barcontainerthree{
+    width: 500px;
+    border-radius: 25px;
+    background-color: rgb(226, 226, 226);
+    height: 25px;
+    margin-bottom: 25px;
+}
+.barthree{
+    width: 60%;
+    background-color: rgb(10, 214, 255);
+    height: 25px;
+    border-radius: 25px;
+}
+.progress{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    gap: 100px;
+}
+.addtocart{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    gap: 180px;
+}
+.addtocart img{
+    width: 550px;
+}
+.checkout{
+    margin-top: 50px;
+    font-weight: 550;
+}
+.checkout button{
+    padding: 15px;
+    width: 250px;
+    border: none;
+    border-radius: 11px;
+    background-color: rgb(10, 214, 255);
+    font-size: larger;
+    color:  white;
+    font-weight: 550;
+}
+.dollar{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.total a{
+    cursor: pointer;
+}
+.dollar table{
+    border-collapse: collapse;
+}
+.dollar table th,td{
+    border: 2px solid black;
+    padding: 20px;
+}
+.mount{
+    font-size: 25px;
+    font-weight: 550;
+    padding-left: 255px;
+    margin-top: 50px;
+}
+.tell{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: larger;
+    font-weight: 550;
+}
+.sell{
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+}
+.sell button{
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: large;
+}
+.ships{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    gap: 150px;
+}
+.credit{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 10px;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 100px;
+}
+.number button{
+    padding: 20px;
+    border: none;
+    font-size: large;
+    border-radius: 15px;
+}
+.promo{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    gap: 960px;
+    font-weight: 550;
+}
+.code{
+    display: flex;
+    justify-content: center;
+    gap: 750px;
+} 
+.multi{
+    display: flex;
+    gap: 100px;
+    font-size: x-large;
+}
+.apply button{
+    padding: 15px;
+    border: none;
+    border-radius: 11px;
+    font-size: large;
+
+}
+.placebtn button{
+    padding: 15px;
+    border: none;
+    border-radius: 11px;
+    font-size: large;
+    background-color: rgb(10, 214, 255);
+    color: white;
+    font-weight: 550;
+}
+.placebtn{
+    text-align: center;
+    padding-left:1100px;
+    margin-bottom: 50px;
+}
+.placed button{
+    padding: 15px;
+    border: none;
+    border-radius: 11px;
+    font-size: large;
+    background-color: rgb(10, 214, 255);
+    color: white;
+    font-weight: 550;
+}
+.success img{
+    width: 90px;
+}
+.success{
+    font-size: larger;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.flag{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.flag img{
+    width: 350px;
+}
+.wear{
+    padding-left: 100px;
+}
+.mention{
+    padding-left: 100px;
+}
+.customers{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-weight: 550;
+}
+.customers img{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.boxes img{
+    width: 70px;
+    height: 70px;
+}
+.boxes{
+    display: flex;
+    font-size: 25px;
+    font-weight: 550;
+    background-color: rgb(192, 255, 255);
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 400px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.with{
+    padding-left: 550px;
+    margin-bottom: 700px;
+}
+.return{
+    display: flex;
+    justify-content: space-around;
+}
+.return p{
+    font-size: larger;
+    font-weight: 550;
+}
+.bill{
+    position: relative;
+    top: 10px;
+    width: 355px;
+    background-color: rgb(180, 245, 245);
+    padding: 20px;
+    left: 550px;
+    border-radius: 15px;
+    display: none;
+    margin-bottom: 50vh;
+}
+.bill button{
+    padding: 20px;
+    width: 350px;
+    font-size: larger;
+    background-color: white;
+    border: none;
+    font-weight: 550;
+    border-radius: 11px;
+    text-align: left;
+    cursor: pointer;
+}
+.message{
+    position: relative;
+    top: 40px;
+    left: 550px;
+    display: flex;
+    display: none;
+    margin-bottom: 50vh;
+
+}  
+.message button{
+    padding: 35px;
+    width: 400px;
+    font-size: 25px;
+    border: none;
+    border-radius: 11px;
+    background-color: rgb(191, 251, 251);
+    cursor: pointer;
+}
+.call a{
+    text-decoration: none;
+    color: black;
+}
+.message img{
+    width: 50px;
+    height: 50px;
+}
+.msgbtn{
+    position: absolute;
+    left: 320px;
+    top: 20px;
+    cursor: pointer;
+    
+}
+.above{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    font-size: large;
+    display: none;
+}
+.upper{
+     position: absolute;
+    top: 380px;
+    left: 700px;
+    font-size: large;   
+    display: none;
+}
+.bird{
+     position: absolute;
+    top: 300px;
+    left: 1100px;
+    font-size: large;
+    display: none;
+}
+@keyframes leftright{
+    0%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(-50%);
+    }
+}
